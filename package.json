@@ -1,0 +1,32 @@
+{
+  "name": "fastify-test-app",
+  "version": "1.0.0",
+  "description": "A Fastify server with TypeScript",
+  "main": "dist/server.js",
+  "scripts": {
+    "dev": "ts-node src/server.ts",
+    "build": "tsc",
+    "start": "node dist/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@sinclair/typebox": "^0.33.9",
+    "axios": "^1.7.7",
+    "axios-retry": "^4.5.0",
+    "dotenv": "^16.4.5",
+    "fastify": "^3.29.0",
+    "fastify-oas": "^3.0.8",
+    "fastify-static": "^4.7.0",
+    "fastify-swagger": "^5.2.0"
+  },
+  "devDependencies": {
+    "@types/axios": "^0.14.0",
+    "@types/dotenv": "^8.2.0",
+    "@types/node": "^22.5.4",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4"
+  }
+}
